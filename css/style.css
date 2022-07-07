@@ -1470,7 +1470,7 @@ h6 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
-    padding: 20px 30px 20px 40px;
+    padding: 20px 30px;
     text-align: center;
   }
 
