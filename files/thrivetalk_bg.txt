@@ -1,0 +1,200 @@
+html
+
+					<!-- <section class="thrivetalk">
+						<div class="_container">
+							<div class="thrivetalk__block-img _ibg">
+								<img src="@img/thrivetalk/bg-img.jpg" alt="bg-img">
+							</div>
+							<div class="thrivetalk__block-text block-text">
+								<div class="block-text__logo logo">
+									Thrivetalk
+								</div>
+								<h2 class="block-text__title">
+									HELPING YOU THRIVE IN ALL AREAS OF LIFE
+								</h2>
+								<p class="block-text__text">
+									Our highly talented therapists can help you with a range of issues including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
+								</p>
+							</div>
+							<div class="thrivetalk__block-btn block-btn">
+								<a href="#" class="block-btn__btn-who">WHO AM I</a>
+								<a href="#"class="block-btn__btn-what">WHAT DO I DO</a>
+							</div>
+						</div>
+					</section> -->
+
+scss
+
+// ============================ thrivetalk v2
+// .thrivetalk {
+// 	padding: 247px 0px 75px 0px;
+// 	position: relative;
+// 	&__block-img {
+// 		position: absolute;
+// 		width:100%;
+// 		height:100%;
+// 		top:0;
+// 		left:0;
+// 		img {
+// 			object-position: right;
+// 		}
+// 		@media (max-width:$mw2) {
+// 			img {
+// 				opacity: 0.8;
+// 			}
+// 		}
+// 	}
+// 	&__block-text {
+// 		position: relative;
+// 		z-index: 5;
+// 		max-width: 470px;
+// 	}
+// 	&__block-btn {
+// 		position: relative;
+// 		z-index: 5;
+// 	}
+// 	@media (max-width:$mw1) {
+// 		padding: 140px 0px 75px 0px;
+// 	}
+// 	@media (max-width:$mw3) {
+// 		padding: 90px 0px 30px 0px;
+// 	}
+// }
+// .block-text {
+// 	&__logo {
+// 		margin-bottom: 38px;
+// 		@media (max-width:$mw1) {
+// 			margin-bottom: 25px;
+// 		}
+// 		@media (max-width:$mw2) {
+// 			display: none;
+// 		}
+// 	}
+// 	&__title {
+// 		font-size: 48px;
+// 		font-weight: 700;
+// 		line-height: 120%;
+// 		letter-spacing: -0.035em;
+// 		color: #22356F;
+// 		margin: 0px 0px 60px 0px;
+// 		@media (max-width:$mw1) {
+// 			margin: 0px 0px 40px 0px;
+// 			font-size: 46px;
+// 		}
+// 		@media (max-width:$mw2) {
+// 			margin: 0px 0px 40px 0px;
+// 			font-size: 43px;
+// 		}
+// 		@media (max-width:$mw3) {
+// 			text-align: center;
+// 			margin: 0px 0px 20px 0px;
+// 			font-size: 38px;
+// 		}
+// 	}
+// 	&__text {
+// 		font-size: 24px;
+// 		line-height: 190%;
+// 		color: #22356F;
+// 		margin: 0px 0px 48px 0px;
+// 		@media (max-width:$mw1) {
+// 			line-height: 170%;
+// 		}
+// 		@media (max-width:$mw2) {
+// 			font-size: 22px;
+// 			margin: 0px 0px 40px 0px;
+// 			color: #13296d;
+// 		}
+// 		@media (max-width:$mw3) {
+// 			text-align: center;
+// 			font-size: 22px;
+// 			margin: 0px 0px 20px 0px;
+// 		}
+// 	}
+// }
+// .block-btn {
+// 	display: flex;
+// 	align-items: center;
+// 	:not(:last-child) {
+// 		margin: 0px 30px 0px 0px;
+// 	}
+// 	&__btn-who {
+// 		display: flex;
+// 		justify-content: center;
+// 		align-items: center;
+// 		min-width: 150px;
+// 		height: 50px;
+// 		background: #F9B640;
+// 		font-size: 16px;
+// 		letter-spacing: 0.1em;
+// 		color: #FFFFFF;
+// 		transition: all .2s;
+// 		&:hover {
+// 			transform: translateY(-3px);
+// 			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+// 			border-radius: 50px;
+// 		}
+// 		&:active {
+// 			transform: translateY(-1px);
+// 			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+// 		}
+// 		@media (max-width:$mw2) {
+// 			height: 46px;
+// 		}
+// 		@media (max-width:$mw3) {
+// 			order: 2;
+// 		}
+// 	}
+// 	&__btn-what {
+// 		position: relative;
+// 		display: flex;
+// 		justify-content: center;
+// 		align-items: center;
+// 		font-size: 16px;
+// 		letter-spacing: 0.1em;
+// 		color: #FAB63E;
+// 		min-width: 150px;
+// 		height: 50px;
+// 		&::before {
+// 			transition: all 0.3s;
+// 			content: '';
+// 			position: absolute;
+// 			top: 0;
+// 			right: 0;
+// 			width: 0%;
+// 			height: 2px;
+// 			background-color: #F9B640;
+// 		}
+// 		&::after {
+// 			transition: all 0.3s;
+// 			content: '';
+// 			position: absolute;
+// 			left: 0;
+// 			bottom: 0;
+// 			width: 0%;
+// 			height: 2px;
+// 			background-color: #F9B640;
+// 		}
+// 		&:hover {
+// 			&::before,
+// 			&::after {
+// 				width: 100%;
+// 			}
+// 		}
+// 		@media (max-width:$mw2) {
+// 			height: 46px;
+// 		}
+// 		@media (max-width:$mw3) {
+// 			height: 46px;
+// 		}
+// 		@media (max-width:$mw3) {
+// 			order: 1;
+// 		}
+// 	}
+// 	@media (max-width:$mw3) {
+// 		flex-direction: column;
+// 		:not(:last-child) {
+// 			margin: 5px 0px 0px 0px;
+// 		}
+// 	}
+// }
+// ======================================
